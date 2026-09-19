@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ragav Krishna | CSE Student</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#0b1020;color:#fff;line-height:1.6}
+nav{position:fixed;top:0;width:100%;padding:18px 8%;background:rgba(11,16,32,.92);backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;z-index:1000}
+.logo{font-size:24px;font-weight:bold;color:#61dafb}
+nav ul{display:flex;list-style:none;gap:25px}
+nav a{color:#fff;text-decoration:none;transition:.3s}
+nav a:hover{color:#61dafb}
+section{padding:100px 8%}
+#home{min-height:100vh;display:flex;align-items:center;background:radial-gradient(circle at 80% 30%,#193b62 0%,transparent 30%),#0b1020}
+.hero{max-width:750px}
+.hero small{color:#61dafb;font-size:18px}
+.hero h1{font-size:clamp(45px,8vw,80px);margin:15px 0}
+.hero h1 span{color:#61dafb}
+.hero p{font-size:20px;color:#b8c1d9;max-width:650px}
+.buttons{margin-top:30px;display:flex;gap:15px}
+.btn{padding:13px 25px;border-radius:8px;text-decoration:none;font-weight:bold;transition:.3s}
+.primary{background:#61dafb;color:#07101c}
+.secondary{border:1px solid #61dafb;color:#61dafb}
+.btn:hover{transform:translateY(-3px)}
+.section-title{font-size:38px;margin-bottom:15px}
+.section-subtitle{color:#9ba7c0;margin-bottom:40px}
+#about,#goals{background:#10172a}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.card,.skill,.goal-box{background:#151e35;padding:30px;border-radius:15px;border:1px solid #263452}
+.card h3,.skill h3{color:#61dafb;margin-bottom:15px}
+.education{display:grid;gap:20px}
+.education-item{padding:25px;border-left:4px solid #61dafb;background:#151e35;border-radius:8px}
+.education-item p{color:#aeb8ce}
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.skill{text-align:center;transition:.3s}
+.skill:hover{transform:translateY(-6px);border-color:#61dafb}
+.skill h3{margin-bottom:8px}
+.goal-box{max-width:850px}
+.goal-box p{color:#c0c8d9;font-size:18px}
+footer{text-align:center;padding:30px;background:#070b15;color:#8792aa}
+@media(max-width:800px){
+nav{padding:15px 5%}nav ul{gap:12px;font-size:13px}
+section{padding:90px 6%}.about-grid,.skills-grid{grid-template-columns:1fr}
+.hero p{font-size:17px}.buttons{flex-direction:column;width:fit-content}
+}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">RK</div>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#goals">Goals</a></li>
+</ul>
+</nav>
+
+<section id="home">
+<div class="hero">
+<small>COMPUTER SCIENCE & ENGINEERING STUDENT</small>
+<h1>Hi, I'm <span>Ragav Krishna.</span></h1>
+<p>A Computer Science and Engineering student passionate about learning technology, developing technical skills, and building a strong foundation for my future career.</p>
+<div class="buttons">
+<a href="#about" class="btn primary">Explore My Profile</a>
+<a href="#education" class="btn secondary">My Education</a>
+</div>
+</div>
+</section>
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+<p class="section-subtitle">A little about my academic journey.</p>
+<div class="about-grid">
+<div class="card"><h3>Who I Am</h3><p>I am a Computer Science and Engineering student currently developing my knowledge in programming, computer systems, problem solving, and modern technology.</p></div>
+<div class="card"><h3>My Approach</h3><p>I believe in learning step by step, strengthening my fundamentals, practicing consistently, and improving my technical abilities through practical work.</p></div>
+</div>
+</section>
+
+<section id="education">
+<h2 class="section-title">Education</h2>
+<p class="section-subtitle">My academic path.</p>
+<div class="education">
+<div class="education-item"><h3>Bachelor of Engineering</h3><p>Computer Science and Engineering</p><p>Valliammai Engineering College</p></div>
+<div class="education-item"><h3>Higher Secondary Education</h3><p>Tamil Nadu State Board</p><p>Completed Higher Secondary Education</p></div>
+</div>
+</section>
+
+<section id="skills">
+<h2 class="section-title">Skills I'm Building</h2>
+<p class="section-subtitle">Areas I am focusing on during my CSE journey.</p>
+<div class="skills-grid">
+<div class="skill"><h3>Programming</h3><p>Building programming fundamentals and logical thinking.</p></div>
+<div class="skill"><h3>Web Development</h3><p>Learning how websites are designed and developed.</p></div>
+<div class="skill"><h3>Problem Solving</h3><p>Developing analytical and computational thinking.</p></div>
+<div class="skill"><h3>Computer Science</h3><p>Learning core concepts and computer technologies.</p></div>
+<div class="skill"><h3>Communication</h3><p>Improving communication and presentation abilities.</p></div>
+<div class="skill"><h3>Continuous Learning</h3><p>Exploring new technologies and improving my knowledge.</p></div>
+</div>
+</section>
+
+<section id="goals">
+<h2 class="section-title">My Goals</h2>
+<p class="section-subtitle">What I'm working towards.</p>
+<div class="goal-box"><p>My goal is to become a skilled technology professional by developing strong programming fundamentals, gaining practical experience, completing meaningful projects, and continuously improving my knowledge throughout my CSE journey.</p></div>
+</section>
+
+<footer><p>© 2026 Ragav Krishna | Computer Science & Engineering</p></footer>
+</body>
+</html>
